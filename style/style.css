@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
 body {
-   background-color: #D1E8FF;
+   background-color: #d1e8ff;
    margin: 0px;
 }
 
@@ -26,16 +25,20 @@ p {
 footer {
    text-align: center;
    font-size: 100px;
-   background-color: #E3D7FF;
+   background-color: #e3d7ff;
    position: fixed;
    bottom: 0px;
    width: 100%;
 }
 
+footer:hover {
+   background-color: #ff6e99;
+}
+
 header {
    text-align: center;
    font-size: 100px;
-   background-color: #E3D7FF;
+   background-color: #e3d7ff;
    border: 2px solid black;
 }
 
@@ -43,8 +46,12 @@ button {
    font-size: 100px;
    font-family: "Cherry Bomb One", system-ui;
    font-weight: 400;
-   background-color: #E3D7FF;
+   background-color: #e3d7ff;
    border: 0px solid black;
+}
+
+button:hover {
+   background-color: #ff6e99;
 }
 
 .pinkText {
@@ -63,4 +70,11 @@ button {
 
 .flex {
    display: flex;
+}
+.test {
+   flex: 1;
+}
+
+.test:hover {
+   background-color: #ff6e99;
 }
