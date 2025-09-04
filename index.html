@@ -6,24 +6,56 @@
       <link rel="stylesheet" href="style/style.css" />
       <title>Stalkers!</title>
    </head>
+
    <body>
       <div class="ts">
          <header>
             <div class="flex">
-                  <button class="test" id="VT" type="button" onclick=document.location="https://app.voltaic.gg/c4ntrip">
-                     <p>My Voltaic Benchmarks</p>
-                  </button>
-                  <button class="test" id="CAR" type="button" onclick=document.location="https://www.imdb.com/title/tt0317219/reviews/">
-                     <p>Attack Cars!!!!</p>
-                  </button>
+               <button
+                  class="links"
+                  id="VT"
+                  type="button"
+                  onclick="document.location='https://app.voltaic.gg/c4ntrip'"
+               >
+                  My Voltaic Benchmarks
+               </button>
+               <button
+                  class="links"
+                  id="CAR"
+                  type="button"
+                  onclick="document.location='https://store.steampowered.com/app/824270/KovaaKs/'"
+               >
+                  Get KovaaK's!
+               </button>
             </div>
          </header>
-         <h1><em>Agressive cats</em></h1>
-         <h2 class="pinkText">Buy me an uwuting</h2>
-         <div style="position: relative;background-color: blue; width: 1px; height: 2000px;">   
-      </div>
+         <h1><em>I TOTALLY don't attack randoms on a daily basis</em></h1>
+         <button
+            class="wildButtonText"
+            id="nuke"
+            type="button"
+            onclick="nukeSomething()"
+         >
+            Launch a nuke, or something!
+         </button>
+         <div class="middleBlock">
+            <h3>Wishlist</h3>
+            <ul>
+               <li>RTX 5070 TI</li>
+               <li>WLmouse Ying Black</li>
+               <li>Artisan Key83 Soft XXL Black</li>
+            </ul>
+         </div>
+         <div
+            style="
+               position: relative;
+               background-color: blue;
+               width: 1px;
+               height: 2000px;
+            "
+         ></div>
          <footer class="flex">
-            <button class="test" id="about" type="button" onclick="aboutMe()">
+            <button class="about" id="about" type="button" onclick="aboutMe()">
                About Me
             </button>
          </footer>
@@ -33,5 +65,6 @@
                   "not much to know :p";
             }
          </script>
+      </div>
    </body>
 </html>
